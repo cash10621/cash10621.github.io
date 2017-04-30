@@ -1,5 +1,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+/*色跳選擇：#616163-#44ffd2-#87f6ff-#daf5ff-#ffbfa0*/
+
+
 /*基礎設定*/
 
 * {
@@ -33,4 +36,32 @@ h1 {
 
 div {
     padding: 15px, 15px, 15px, 15px;
+}
+
+p {
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 22px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
 }
