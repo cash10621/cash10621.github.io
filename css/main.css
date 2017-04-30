@@ -8,6 +8,7 @@
 * {
     box-sizing: 'border-box';
     font-family: 'Noto Sans Tc', serif, 'Sans Serif';
+    /*border: 1px solid black;檢查用*/
 }
 
 
@@ -64,4 +65,16 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    padding: 10px;
+}
+
+.container {
+    width: 1400px;
+    margin: 0, auto;
 }
