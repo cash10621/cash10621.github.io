@@ -1,4 +1,5 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
 
 /*色跳選擇：#616163-#44ffd2-#87f6ff-#daf5ff-#ffbfa0*/
 
@@ -41,6 +42,9 @@ h1 {
 nav {
     background-color: #616163;
     margin: 10, auto;
+    width: 100%;
+    height: 40px;
+    align-content: center;
 }
 
 div {
@@ -61,6 +65,9 @@ p {
     text-align: center;
 }
 
+
+/*連結標籤設定開始*/
+
 a:link {
     text-decoration: none;
 }
@@ -74,6 +81,9 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+
+
+/*連結標籤設定結束*/
 
 .box {
     width: 100px;
