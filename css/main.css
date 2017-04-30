@@ -35,6 +35,14 @@ h1 {
     color: red;
 }
 
+
+/*給導覽列的樣式*/
+
+nav {
+    background-color: #616163;
+    margin: 10, auto;
+}
+
 div {
     padding: 15px, 15px, 15px, 15px;
 }
