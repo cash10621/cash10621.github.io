@@ -48,8 +48,8 @@ nav {
 }
 
 menuitem {
-    color: white;
     margin: 20px, 5px, 20px, 5px;
+    text-align: center;
 }
 
 div {
