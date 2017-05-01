@@ -67,6 +67,14 @@ div {
     padding: 15px, 15px, 15px, 15px;
 }
 
+.pic {
+    width: 500px;
+    height: 800px;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
 p {
     letter-spacing: 1px;
     word-spacing: 10px;
