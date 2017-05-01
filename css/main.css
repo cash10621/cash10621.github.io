@@ -53,6 +53,14 @@ nav div {
     padding: 200px, 20px, 200px, 20px;
 }
 
+nav div ul {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    align-content: center;
+    margin: 15px, 0px, 15px, 0px;
+}
+
 header {
     background-image: url("https://unsplash.it/4951/3301?image=1025");
     background-repeat: no-repeat;
