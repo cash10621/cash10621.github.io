@@ -53,12 +53,6 @@ nav div {
     padding: 200px, 20px, 200px, 20px;
 }
 
-nav div a {
-    width: 200px;
-    height: 40px;
-    padding: 20px, 5px, 20px, 5px;
-}
-
 header {
     background-image: url("https://unsplash.it/4951/3301?image=1025");
     background-repeat: no-repeat;
@@ -72,8 +66,8 @@ div {
 }
 
 .pic {
-    width: 500px;
-    height: 800px;
+    width: 300px;
+    height: 300px;
     padding: 25px;
     margin: 25px;
     float: left;
