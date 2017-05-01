@@ -48,12 +48,10 @@ nav {
 
 nav div {
     width: 100%;
-    height: 50px;
-    padding: 20px, 20px, 20px, 20px;
     display: block;
 }
 
-nav a {
+nav div a {
     width: 200px;
     height: 40px;
     padding: 20px, 5px, 20px, 5px;
