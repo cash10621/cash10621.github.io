@@ -15,7 +15,8 @@
 
 /*reset 基本tag*/
 
-h1,
+
+/*h1,
 h2,
 h3,
 h4,
@@ -27,13 +28,16 @@ body,
     margin: 0;
     padding: 0;
 }
+*/
 
 
 /*h1標定*/
 
 h1 {
     font-size: 25px;
-    color: red;
+    color: white;
+    text-align: right;
+    position: 450px, 200px;
 }
 
 
@@ -48,7 +52,6 @@ nav {
 
 nav div {
     width: 100%;
-    display: block;
     height: 50px;
     padding: 200px, 20px, 200px, 20px;
 }
@@ -72,11 +75,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    width: 1400px;
-}
-
-div {
-    padding: 15px, 15px, 15px, 15px;
+    width: 100%;
 }
 
 .pic {
@@ -124,8 +123,3 @@ a:active {
 
 
 /*連結標籤設定結束*/
-
-.container {
-    width: 1400px;
-    margin: 0, auto;
-}
