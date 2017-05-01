@@ -57,7 +57,12 @@ nav div a {
     height: 40px;
 }
 
-nav a {}
+.mainbackground {
+    width: 100%;
+    background-image: url("https://unsplash.it/4951/3301?image=1025");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
 div {
     padding: 15px, 15px, 15px, 15px;
