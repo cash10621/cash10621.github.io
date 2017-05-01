@@ -47,11 +47,14 @@ nav {
 }
 
 nav div {
+    float: left;
+    align-content: center;
+}
+
+nav div a {
     padding: 5px, 5px, 5px, 5px;
     width: 120px;
     height: 40px;
-    float: left;
-    align-content: center;
 }
 
 nav a {}
