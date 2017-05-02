@@ -23,6 +23,7 @@ h5,
 h6,
 p,
 body,
+html,
 {
     margin: 0;
     padding: 0;
@@ -34,8 +35,10 @@ body,
 h1 {
     font-size: 25px;
     color: white;
-    text-align: left;
-    margin: 20px, 300px, 0, 0;
+    margin: 450px 800px 20px 40px;
+    background-color: rgba(0, 0, 0, 0.54);
+    width: 300px;
+    text-align: center;
 }
 
 
@@ -65,14 +68,15 @@ nav div ul li {
     padding: 5px;
     margin: 10px;
     float: left;
-    text-align: center;
+    text-align: left;
+    list-style-type: none;
 }
 
 header {
     background-image: url("https://unsplash.it/4951/3301?image=1025");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 550px;
     width: 100%;
 }
 
