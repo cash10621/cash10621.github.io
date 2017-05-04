@@ -125,3 +125,7 @@ a:active {
 
 
 /*連結標籤設定結束*/
+
+.content {
+    margin: 20px auto;
+}
