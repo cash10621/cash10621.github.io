@@ -7,7 +7,7 @@
 /*基礎設定*/
 
 * {
-    /*box-sizing: 'border-box';*/
+    box-sizing: 'border-box';
     font-family: 'Noto Sans Tc', serif, 'Sans Serif';
     /*border: 1px solid black;*/
 }
