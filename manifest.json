@@ -1,11 +1,11 @@
 {
-    "name": "iZooto Push Notification",
-    "short_name": "iZooto Notifier",
+    "name": "東南旅遊網",
+    "short_name": "東南旅遊",
     "icons": [{
         "src": "icon-192x192.png",
         "sizes": "192x192"
     }],
-    "start_url": "./index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "gcm_sender_id": "615558377958"
 }

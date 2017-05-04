@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="/css/main.css" />
     <!--這裡是推播外掛-->
     <script>
-        window._izq = window._izq || [];
-        window._izq.push(["init"]);
+        window._izq = [];
+        window._izq.push(["init", {
+            "auto_prompt": false
+        }]);
     </script>
     <script src="//cdn.izooto.com/scripts/2fcac0831501e23934f23a620f112f9919090739.js"></script>
 
@@ -46,8 +48,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur?</p>
     </div>
 
+    <div> <button onclick="window._izq.push(['triggerPrompt']);">Subscribe</button></div>
 
-    <button onclick="window._izq.push(['triggerPrompt']);">Subscribe</button>
 </body>
 
 </html>
