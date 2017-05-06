@@ -140,7 +140,7 @@ a:active {
 footer {
     width: 1400px;
     height: 60px;
-    padding: 0 auto;
+    margin: 0 auto;
 }
 
 div li ul {
