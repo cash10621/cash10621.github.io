@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="/css/main.css" />
     <!--這裡是推播外掛-->
     <script>
-        window._izq = window._izq || [];
-        window._izq.push(["init"]);
+        window._izq = [];
+        window._izq.push(["init", {
+            "auto_prompt": false
+        }]);
     </script>
     <script src="//cdn.izooto.com/scripts/2fcac0831501e23934f23a620f112f9919090739.js"></script>
     <!--推播外掛結束-->
@@ -33,6 +35,12 @@
 
     </header>
 
+
+    <div>
+        <button onclick="window._izq.push(['triggerPrompt']);">Subscribe</button>
+        <button onclick='_izq.push(["updateSubscription","subscribe"]);'>Subscribe</button>
+        <button onclick='_izq.push(["updateSubscription","unsubscribe"]);'>Unsubscribe</button>
+    </div>
     <footer class="foot">我是footer</footer>
 
 </body>
