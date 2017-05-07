@@ -32,7 +32,21 @@
         <h1>張家誠第一個github頁面</h1>
 
     </header>
-
+    <div class="content">
+        <div class="pic col-">
+            <img src="https://unsplash.it/300/300?image=1062" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, impedit veniam sed laudantium illo explicabo.</p>
+        </div>
+        <div class="pic">
+            <img src="https://unsplash.it/300/300?image=1063" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ducimus.</p>
+        </div>
+        <div class="pic">
+            <img src="https://unsplash.it/300/300?image=1064" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur?</p>
+        </div>
+    </div>
+    <div class="clearfix"> <button onclick="window._izq.push(['triggerPrompt']);">Subscribe</button></div>
     <footer class="foot">我是footer</footer>
 
 </body>

@@ -1,0 +1,21 @@
+    //建立setup-grid 混合器
+    @mixin gridset($deviceName) {
+        @for $num from 1 through 12 {
+            .col-#{$deviceName}-#{$num} {
+                width:calc(100%* #{$num} /12);
+            }
+        }
+    } //使用setup-grid 混合器
+    //手機網格
+    @media screen and (min-width:768px) {
+        @include gridset('xs');
+    } //平版網格
+    @media screen and (min-width:768px) and (max-width:991px) {
+        @include gridset('sm');
+    } //普通電腦網格
+    @media screen and (min-width:992px) and (max-width:1200px) {
+        @include gridset('md');
+    } //大螢幕電腦網格
+    @media screen and (min-width:1200px) {
+        @include gridset('lg');
+    }

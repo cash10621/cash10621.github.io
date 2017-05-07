@@ -4,16 +4,13 @@
 /*色跳選擇：#616163-#44ffd2-#87f6ff-#daf5ff-#ffbfa0*/
 
 
-/*基礎設定*/
+/*基礎設定(reset 基本tag*/
 
 * {
     box-sizing: 'border-box';
     font-family: 'Noto Sans Tc', serif, 'Sans Serif';
     /*border: 1px solid black;*/
 }
-
-
-/*reset 基本tag*/
 
 h1,
 h2,
@@ -30,6 +27,19 @@ html {
 }
 
 
+/*基礎設定(reset 基本tag*結尾/
+
+/*版頭*/
+
+header {
+    background-image: url("https://unsplash.it/4951/3301?image=1025");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+
 /*h1標定*/
 
 h1 {
@@ -40,6 +50,9 @@ h1 {
     width: 300px;
     text-align: center;
 }
+
+
+/*h1標定結尾*/
 
 
 /*給導覽列的樣式*/
@@ -73,21 +86,26 @@ nav div ul li {
     list-style-type: none;
 }
 
-header {
-    background-image: url("https://unsplash.it/4951/3301?image=1025");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
-    width: 100%;
+
+/*版頭*/
+
+
+/*內容區塊開頭*/
+
+.container {}
+
+
+/*內容區塊底下的section*/
+
+section {
+    padding: 50px 0 50px 0;
 }
 
-.pic {
-    width: 300px;
-    height: 300px;
-    padding: 25px;
-    margin: 25px;
-    float: left;
-}
+
+/*內容區塊結尾*/
+
+
+/*雜項CSS開頭*/
 
 p {
     letter-spacing: 1px;
@@ -102,6 +120,9 @@ p {
 .center {
     text-align: center;
 }
+
+
+/*雜項CSS結尾*/
 
 
 /*連結標籤設定開始*/
