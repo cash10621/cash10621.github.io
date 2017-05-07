@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="manifest" href="/manifest.json">
     <!--這裡是推播外掛-->
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
     <script>
-        window._izq = window._izq || [];
-        window._izq.push(["init"]);
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(["init", {
+            appId: "207218ac-6caf-4f40-993d-e4ce8bb58d49",
+            autoRegister: false,
+            notifyButton: {
+                enable: true /* Set to false to hide */
+            }
+        }]);
     </script>
-    <script src="//cdn.izooto.com/scripts/2fcac0831501e23934f23a620f112f9919090739.js"></script>
-
-
     <!--推播外掛結束-->
 </head>
 
