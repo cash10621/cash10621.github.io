@@ -12,7 +12,7 @@
     /*這個也可以來處理float區塊問題*/
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .col-xs-1 {
         width: calc(100%* 1 /12);
     }

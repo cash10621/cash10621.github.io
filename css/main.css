@@ -7,9 +7,9 @@
 /*基礎設定(reset 基本tag*/
 
 * {
-    box-sizing: 'border-box';
+    box-sizing: border-box;
     font-family: 'Noto Sans Tc', serif, 'Sans Serif';
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 h1,
@@ -20,6 +20,8 @@ h5,
 h6,
 p,
 body,
+div,
+img,
 html {
     margin: 0;
     padding: 0;
@@ -106,24 +108,31 @@ nav div ul li a {
 
 /*內容區塊開頭*/
 
-.container {}
-
-
-/*內容區塊底下的section*/
-
-section {
-    padding: 50px 0 50px 0;
+.container {
+    /*margin: 25PX;*/
 }
 
 .about_me {
     width: 100%;
+    height: 300px;
+    padding: 50px 0 50px 0;
+}
+
+.project {
+    width: 100%;
+    height: 300px;
+    background-color: #daf5ff;
+}
+
+.info img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 h3 {
     display: block;
     font-size: 25pt;
-    padding: 25px 0 25px 0;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -169,6 +178,18 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+.readmore {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 12pt;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.54);
+    width: 150px;
+    margin-left: calc(100%* 8/12);
+    margin-top: 15px;
 }
 
 
