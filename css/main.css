@@ -153,6 +153,11 @@ h3 {
     padding: 20px 0;
 }
 
+.progress {
+    width: 250px;
+    height: 30px;
+}
+
 
 /*內容區塊結尾*/
 
