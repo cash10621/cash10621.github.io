@@ -1,8 +1,8 @@
 [class^='col-'] {
     float: left;
     /*網隔間的留白*/
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 15PX 15PX 15PX;
+    width: 100%;
 }
 
 .row:after {

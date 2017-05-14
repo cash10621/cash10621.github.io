@@ -8,7 +8,7 @@
     <title>張家誠第一個github頁面</title>
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/grid.css" />
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="/manifest.json" />
     <!--這裡是推播外掛-->
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
     <script>
@@ -25,9 +25,9 @@
 </head>
 
 <body>
-    <!--這邊開始是導覽列-->
     <header>
-        <nav>
+        <!--這邊開始是導覽列-->
+        <nav class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
             <div>
                 <ul>
                     <li><a href="/" class="link" id="home">Home</a></li>
@@ -40,18 +40,17 @@
                 </ul>
             </div>
         </nav>
-        <div>
+        <div class=" col-xs-10 col-sm-8s col-md-5 col-lg-4 type">
             <h1>張家誠第一個github頁面</h1>
             <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, odio.</p>
         </div>
     </header>
     <!--這邊結尾是導覽列-->
     <div class="container">
-        <div class="about_me">
+        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 about_me">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <h3>About Me</h3>
             </div>
-
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit impedit est odit, dignissimos eligendi!
                     Doloremque distinctio possimus suscipit. Eos quis, ipsum quae similique delectus. Minus vero explicabo
@@ -61,12 +60,15 @@
                     consequuntur deserunt labore laudantium neque nulla suscipit tempore magnam odit at fugiat molestiae
                     dolores vero ipsa odio. Maiores harum placeat nesciunt animi ut ullam repellendus, itaque, quam soluta
                     quasi tenetur molestiae!</P>
-                <a class="readmore" href="/page/about_me.html">閱讀更多...</a>
+                <!--<div class="readmore">
+                    <a href="/page/about_me.html">閱讀更多...</a>
+                </div>-->
+
             </div>
 
         </div>
 
-        <div class="project">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h3>專案作品</h3>
             </div>
@@ -81,7 +83,8 @@
                 <img src="https://unsplash.it/300/300?image=999" alt="">
             </div>
         </div>
-        <div class="skill">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 skill">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h3>工作技能</h3>
@@ -119,17 +122,27 @@
                 <p>Ab.</p>
                 <progress class="progress" value="22" max="100"></progress>
             </div>
-            <!--            
 
-        </div>
-    </div>
 
-    <div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tool">
 
-        <!--</div>
-    <footer class="clearfix">
-        <p></p>
-    </footer>-->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3>擅長工具</h3>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1065" alt=""></div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1068" alt=""></div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1041" alt=""></div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1024" alt=""></div>
+
+            </div>
+
+            <footer>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 foot">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, doloribus!</p>
+                </div>
+
+            </footer>
 </body>
 
 </html>

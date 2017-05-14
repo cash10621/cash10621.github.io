@@ -22,7 +22,8 @@ p,
 body,
 div,
 img,
-html {
+html,
+footer {
     margin: 0;
     padding: 0;
     border: 0;
@@ -41,32 +42,36 @@ header {
     width: 100%;
 }
 
+.type {}
+
+
+/*引言p標定*/
+
 
 /*h1標定*/
+
+.type {
+    margin: 200px 0 0 0;
+}
 
 h1 {
     font-size: 25px;
     color: white;
-    margin: 200px 800px 0px 40px;
+    margin: 0 40px;
     padding: 12px;
     background-color: rgba(0, 0, 0, 0.54);
-    width: 300px;
     text-align: center;
 }
 
 
 /*h1標定結尾*/
 
-
-/*引言p標定*/
-
 .introduction {
     font-size: 16px;
     color: white;
     background-color: rgba(0, 0, 0, 0.54);
-    margin: 0 800px 110px 40px;
+    margin: 0 40px;
     padding: 12px;
-    width: 300px;
     text-align: center;
 }
 
@@ -142,8 +147,16 @@ nav div ul li a {
 
 .info img {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    max-width: 75%;
+}
+
+.tool {
+    text-align: center;
+}
+
+.tool img {
+    border-radius: 25%;
+    max-width: 80%;
 }
 
 h3 {
@@ -203,8 +216,11 @@ a:active {
 }
 
 .readmore {
-    text-decoration: none;
     text-align: center;
+}
+
+.readmore a {
+    text-decoration: none;
     padding: 5px;
     font-size: 12pt;
     display: block;
@@ -231,13 +247,12 @@ a:active {
 footer {
     width: 100%;
     height: 75px;
-    margin: 0 auto;
     background-color: wheat;
+    clear: both;
+    text-align: center;
 }
 
 footer p {
-    display: block;
-    width: 150px;
     font-size: 15px;
     margin: 25px auto;
     color: black;
