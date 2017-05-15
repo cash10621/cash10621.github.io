@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/grid.css" />
     <link rel="manifest" href="/manifest.json" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!--這裡是推播外掛-->
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
     <script>
@@ -35,20 +36,22 @@
                     <li><a href="/page/project.html" class="link" id="link2">專案作品</a></li>
                     <li><a href="/page/skill.html" class="link" id="link3">工作技能</a></li>
                     <li><a href="/page/tool.html" class="link" id="link4">擅長工具</a></li>
-                    <li><a href="/page/article.html" class="link" id="link5">文章分享</a></li>
+                    <li><a href="/page/article.html" class="link" id="link5">我的文章</a></li>
                     <li><a href="/page/contact_me.html" class="link" id="link6">與我聯絡</a></li>
                 </ul>
             </div>
         </nav>
-        <div class=" col-xs-10 col-sm-8s col-md-5 col-lg-4 type">
-            <h1>張家誠第一個github頁面</h1>
-            <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, odio.</p>
+        <div class=" col-xs-10 col-sm-8s col-md-4 col-lg-4 type v-middle">
+            <div>
+                <h1>Cash的介紹頁</h1>
+                <p class="introduction">用一個網站把自己介紹完</p>
+            </div>
         </div>
     </header>
     <!--這邊結尾是導覽列-->
     <div class="container">
         <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 about_me">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                 <h3>About Me</h3>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
@@ -70,7 +73,7 @@
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>專案作品</h3>
+                <h3>Project</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 info">
                 <p class="project1">專案一號</p>
@@ -87,7 +90,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 skill">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>工作技能</h3>
+                <h3>Skill</h3>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 info">
@@ -123,26 +126,22 @@
                 <progress class="progress" value="22" max="100"></progress>
             </div>
 
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tool">
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h3>擅長工具</h3>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1065" alt=""></div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1068" alt=""></div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1041" alt=""></div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1024" alt=""></div>
-
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tool">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Tool</h3>
             </div>
-
-            <footer>
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 foot">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, doloribus!</p>
-                </div>
-
-            </footer>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1065" alt=""></div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1068" alt=""></div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1041" alt=""></div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 tool"><img src="https://unsplash.it/300/300?image=1024" alt=""></div>
+        </div>
+    </div>
+    <footer>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 foot v-middle">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, doloribus!</p>
+        </div>
+    </footer>
 </body>
 
 </html>

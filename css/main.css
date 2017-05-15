@@ -42,41 +42,35 @@ header {
     width: 100%;
 }
 
-.type {}
 
-
-/*引言p標定*/
-
-
-/*h1標定*/
+/*引言標定*/
 
 .type {
-    margin: 200px 0 0 0;
+    height: 450px;
 }
 
 h1 {
     font-size: 25px;
     color: white;
-    margin: 0 40px;
-    padding: 12px;
     background-color: rgba(0, 0, 0, 0.54);
     text-align: center;
+    width: 100%;
+    padding: 25px 25px 5px 25px;
+    margin: 0 0 0 40px;
 }
 
-
-/*h1標定結尾*/
-
 .introduction {
+    width: 100%;
     font-size: 16px;
     color: white;
     background-color: rgba(0, 0, 0, 0.54);
-    margin: 0 40px;
-    padding: 12px;
     text-align: center;
+    padding: 5px 25px 25px 25px;
+    margin: 0 0 0 40px;
 }
 
 
-/*引言p結尾*/
+/*引言結尾*/
 
 
 /*給導覽列的樣式*/
@@ -131,13 +125,10 @@ nav div ul li a {
 
 .about_me {
     width: 100%;
-    height: 300px;
-    padding: 50px 0 50px 0;
+    height: 250px;
 }
 
 .project {
-    /*width: 100%;
-    height: 500px;*/
     background-color: #daf5ff;
 }
 
@@ -160,11 +151,21 @@ nav div ul li a {
 }
 
 h3 {
-    display: block;
     font-size: 25pt;
-    text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+/*h3:after {
+    height: 100%;
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}*/
 
 .progress {
     width: 250px;
@@ -173,26 +174,6 @@ h3 {
 
 
 /*內容區塊結尾*/
-
-
-/*雜項CSS開頭*/
-
-p {
-    letter-spacing: 1px;
-    word-spacing: 10px;
-    line-height: 22px;
-}
-
-.right {
-    text-align: right;
-}
-
-.center {
-    text-align: center;
-}
-
-
-/*雜項CSS結尾*/
 
 
 /*連結標籤設定開始*/
@@ -248,36 +229,38 @@ footer {
     width: 100%;
     height: 75px;
     background-color: wheat;
-    clear: both;
+    clear: left;
     text-align: center;
+    display: block;
 }
 
 footer p {
     font-size: 15px;
-    margin: 25px auto;
     color: black;
 }
 
 
-/*
-li ul {
-    display: none;
-    float: left;
-    list-style-type: none;
-    line-height: 60px;
+/*共通性設定開頭*/
+
+p {
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 22px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
     text-align: center;
 }
 
-li:hover>ul {
-    display: block;
+.v-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-li ul {
-    border: 2px solid red;
-    display: none;
-}
 
-li:hover>ul {
-    border: 2px solid blue;
-    display: block;
-}*/
+/*共通性設定結尾*/
