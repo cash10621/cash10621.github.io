@@ -109,12 +109,21 @@ p {
 .yourmeg {
     background-color: #86e24a;
     max-width: 70%;
-    margin: 10px 0 10px 0;
-    padding: 5px;
+    margin: 15px 0 10px 0;
+    padding: 8px;
     border-radius: 15px;
     float: right;
     clear: both;
 }
+
+
+/*.yourmeg::before {
+    content: url('/image/your_meg_right.jpg');
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: -30px;
+}*/
 
 .pic {
     clear: both;
@@ -131,8 +140,24 @@ p {
 .othermeg {
     background-color: #fffeff;
     max-width: 70%;
-    margin: 10px 0 10px 0;
-    padding: 5px;
+    margin: 12px 0 10px 0;
+    padding: 8px;
     border-radius: 15px;
     float: left;
+}
+
+
+/*.othermeg::after {
+    content: url('/image/other_meg_left.jpg');
+    position: relative;
+    width: 15px;
+    height: 15px;
+}*/
+
+.forload {
+    visibility: hidden;
+}
+
+.setting {
+    background-color: skyblue;
 }

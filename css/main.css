@@ -81,8 +81,8 @@ nav {
 }
 
 nav div {
-    background-color: #616163;
     width: 100%;
+    background-color: #616163;
     height: 50px;
     position: fixed;
 }
@@ -101,15 +101,29 @@ nav div ul li a {
     text-align: center;
 }
 
+#menu_btn {
+    display: none;
+}
+
+#menu_btn a {
+    width: 30px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     nav div ul li {
         display: none;
+    }
+    #menu_btn {
+        display: inline;
     }
 }
 
 @media screen and (max-width: 768px) {
     nav div ul li {
         display: none;
+    }
+    #menu_btn {
+        display: inline;
     }
 }
 
@@ -206,8 +220,8 @@ a:active {
     font-size: 12pt;
     display: block;
     background-color: rgba(0, 0, 0, 0.54);
-    width: 150px;
-    margin-left: calc(100%* 8/12);
+    width: 125px;
+    margin-left: 70%;
     margin-top: 15px;
 }
 
@@ -227,7 +241,7 @@ a:active {
 
 footer {
     width: 100%;
-    height: 75px;
+    height: 50px;
     background-color: wheat;
     clear: left;
     text-align: center;
@@ -260,6 +274,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+[class^='fa'] {
+    color: white;
 }
 
 

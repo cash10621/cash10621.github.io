@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equlv="X-UA-Compatible" content="ie=edge">
     <title>張家誠第一個github頁面</title>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/grid.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <link rel="manifest" href="/manifest.json" />
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!--這裡是推播外掛-->
@@ -31,6 +32,9 @@
         <nav class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
             <div>
                 <ul>
+                    <li id="menu_btn">
+                        <a href=""><i class="fa fa-bars fa-1x" aria-hidden="true"></i></a>
+                    </li>
                     <li><a href="/" class="link" id="home">Home</a></li>
                     <li><a href="/page/about_me.html" class="link" id="link1">About Me</a></li>
                     <li><a href="/page/project.html" class="link" id="link2">專案作品</a></li>
@@ -50,7 +54,7 @@
     </header>
     <!--這邊結尾是導覽列-->
     <div class="container">
-        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 about_me">
+        <div class="row about_me">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                 <h3>About Me</h3>
             </div>
@@ -63,9 +67,13 @@
                     consequuntur deserunt labore laudantium neque nulla suscipit tempore magnam odit at fugiat molestiae
                     dolores vero ipsa odio. Maiores harum placeat nesciunt animi ut ullam repellendus, itaque, quam soluta
                     quasi tenetur molestiae!</P>
-                <!--<div class="readmore">
-                    <a href="/page/about_me.html">閱讀更多...</a>
-                </div>-->
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 readmore">
+                        <a href="/page/about_me.html">閱讀更多...</a>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -139,8 +147,9 @@
     </div>
     <footer>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 foot v-middle">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, doloribus!</p>
+            <p>Cash website 2017</p>
         </div>
+
     </footer>
 </body>
 
