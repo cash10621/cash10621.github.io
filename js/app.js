@@ -15,6 +15,10 @@ $(function () {
         $('#other_coversection').append('<div class="pic"><img src="https://unsplash.it/40/40?image=836" alt=""></div><div class="othermeg">' +
             your_meg + '</div>');
         $('#txt_box1').val("");
+        $('.conversection').animate({
+            scrollTop: 9999
+        });
+
     });
 
 });
@@ -25,7 +29,10 @@ $(function () {
         $('#your_coversection').append('<div class="pic"><img src="https://unsplash.it/40/40?image=832" alt=""></div><div class="othermeg">' + other_meg + '</div>');
         $('#other_coversection').append('<div class="yourmeg">' + other_meg + '</div>');
         $('#txt_box2').val("");
-    });
+        $('.conversection').animate({
+            scrollTop: 9999
+        });
 
+    });
 
 });
