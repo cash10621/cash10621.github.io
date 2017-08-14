@@ -5,23 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>企劃專用小工具</title>
+    <link rel="stylesheet" href="/css/word.css">
 </head>
 
 <body>
+    <div class="menu">
+        <li><a href="">Google參數設定</a></li>
+        <li><a href="">M版網址產生</a></li>
+    </div>
     <div class="input_form">
-        <form action="form_action.asp" method="get">
-            <div class="input"><span>請輸入網址: </span>
-                <input type="text" placeholder="貼上erp產生網址"></div>
-            <div class="input"><span>utm來源</span><input type="text" placeholder="utm_source"></div>
-            <div class="input"><span>utm媒介</span><input type="text" placeholder="Campaign Medium"></div>
-            <div class="input"><span>utm活動</span><input type="text" placeholder="Campaign Content"></div>
-        </form>
+        <div class="lab"><span>請輸入網址:</span></div>
+        <div class="input"><input type="text" placeholder="貼上erp產生網址"></div>
+        <div class="lab"><span>廣告來源:</span></div>
+        <div class="input"><input type="text" placeholder="utm_source" id="utm_source"></div>
+        <div class="lab"><span>廣告媒介:</span></div>
+        <div class="input"> <input type="text" placeholder="utm_medium" id="utm_medium"></div>
+        <div class="lab"><span>廣告活動:</span></div>
+        <div class="input"><input type="text" placeholder="utm_campaign" id="utm_campaign"></div>
+        <div class="lab"><span>廣告內容:</span></div>
+        <div class="input"><input type="text" placeholder="utm_content" id="utm_content"></div>
+        <div class="submit"><input type="submit" value="產生網址"></div>
     </div>
     <div class="show_result">
         <span>產生網址：</span>
         <p class="url">我是產生網址</p>
-        <iframe src="www.yahoo.com.tw" frameborder="0"></iframe>
+        <iframe src="http://www.yahoo.com.tw" frameborder="1"></iframe>
     </div>
 </body>
 
