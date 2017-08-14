@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Noto Sans Tc', serif, 'Sans Serif';
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 h1,
@@ -30,12 +30,12 @@ footer {
 
 a:link {
     text-decoration: none;
-    color: #145CC4;
+    color: #FDFDFF;
 }
 
 a:visited {
     text-decoration: none;
-    color: #145CC4;
+    color: #FDFDFF;
 }
 
 a:hover {
@@ -74,12 +74,19 @@ div {
 
 span {
     padding: 10px;
+    margin: 5px;
 }
 
 li {
     float: left;
     list-style-type: none;
     padding: 10px;
+    background-color: #5FB9D9
+}
+
+p {
+    padding: 10px;
+    margin: 5px;
 }
 
 
@@ -87,16 +94,35 @@ li {
 
 .input_form {
     clear: both;
-    width: 760px;
+    width: 600px;
+}
+
+.lab {
+    padding: 0px 0px 0px 0px;
 }
 
 .input {
     width: 400px;
-    float: left;
+    margin: 0px 0px 20px 0px;
 }
 
-.lab {}
-
 input {
-    width: 400px;
+    width: 600px;
+    height: 30px;
+}
+
+#submit {
+    width: 100px;
+    float: right;
+}
+
+#url {
+    height: 150px;
+    width: 600px;
+    margin: 0px 0px 15px 0px;
+}
+
+#iframe {
+    width: 600px;
+    height: 300px;
 }
